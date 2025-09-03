@@ -1,4 +1,15 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom"
+import DashboardLayout from "./components/layout/DashboardLayout"
+
+// Placeholder Pages
+import DashboardPage from "./pages/DashboardPage"
+import ContactsPage from "./pages/ContactsPage"
+import CompaniesPage from "./pages/CompaniesPage"
+import DealsPage from "./pages/DealsPage"
+import TasksPage from "./pages/TasksPage"
+import ReportsPage from "./pages/ReportsPage"
+import SettingsPage from "./pages/SettingsPage"
 
 function App() {
   return (
