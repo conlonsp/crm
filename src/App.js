@@ -13,9 +13,17 @@ import SettingsPage from "./pages/SettingsPage"
 
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <Routes>
+      <Route element={<DashboardLayout />}>
+        <Route path="/" element={<DashboardPage />} />
+        <Route path="/contacts" element={<ContactsPage />} />
+        <Route path="/companies" element={<CompaniesPage />} />
+        <Route path="/deals" element={<DealsPage />} />
+        <Route path="/tasks" element={<TasksPage />} />
+        <Route path="/reports" element={<ReportsPage />} />
+        <Route path="/settings" element={<SettingsPage />} />
+      </Route>
+    </Routes>
   )
 }
 
