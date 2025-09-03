@@ -2,7 +2,7 @@ import React from "react";
 
 function TasksPage() {
   return (
-    <div>
+    <div className="main-content">
       <h1>Tasks Page</h1>
     </div>
   )

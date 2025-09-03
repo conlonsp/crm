@@ -2,7 +2,7 @@ import React from "react";
 
 function SettingsPage() {
   return (
-    <div>
+    <div className="main-content">
       <h1>Settings Page</h1>
     </div>
   )

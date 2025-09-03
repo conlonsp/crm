@@ -2,7 +2,7 @@ import React from "react";
 
 function DealsPage() {
   return (
-    <div>
+    <div className="main-content">
       <h1>Deals Page</h1>
     </div>
   )

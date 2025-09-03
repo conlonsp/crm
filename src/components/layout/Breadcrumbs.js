@@ -2,7 +2,7 @@ import React from "react";
 
 function Breadcrumbs() {
   return (
-    <div>
+    <div className="breadcrumbs">
       <h1>Breadcrumbs</h1>
     </div>
   )
