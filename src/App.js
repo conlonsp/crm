@@ -10,6 +10,7 @@ import DealsPage from "./pages/DealsPage"
 import TasksPage from "./pages/TasksPage"
 import ReportsPage from "./pages/ReportsPage"
 import SettingsPage from "./pages/SettingsPage"
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/tasks" element={<TasksPage />} />
         <Route path="/reports" element={<ReportsPage />} />
         <Route path="/settings" element={<SettingsPage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Route>
     </Routes>
   )
